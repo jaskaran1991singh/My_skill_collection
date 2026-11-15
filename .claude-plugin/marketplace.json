@@ -1,0 +1,21 @@
+{
+  "name": "my-skill-collection",
+  "owner": {
+    "name": "jaskaran1991singh"
+  },
+  "metadata": {
+    "description": "Personal collection of reviewed Claude Agent Skills, grouped by area.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "design-skills",
+      "description": "Design skills from my-skill-collection",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/design/ui-library-design"
+      ]
+    }
+  ]
+}

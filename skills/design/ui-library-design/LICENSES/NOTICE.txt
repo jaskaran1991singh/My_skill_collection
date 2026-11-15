@@ -1,0 +1,2 @@
+daisyUI: MIT License, Copyright (c) Pouya Saadeghi — https://github.com/saadeghi/daisyui/blob/master/LICENSE
+coss ui: MIT License, cosscom — https://github.com/cosscom/ui/blob/main/LICENSE
