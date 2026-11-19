@@ -8,6 +8,7 @@ A personal library of [Agent Skills](https://docs.claude.com/en/docs/agents-and-
 | Area | Skill | Description |
 |---|---|---|
 | design | [ui-library-design](skills/design/ui-library-design) | Design and build app UIs with one of five component libraries (coss ui, AlignUI, daisyUI, HeroUI v3, Ant Design). |
+| media | [lemo-opuscar](skills/media/lemo-opuscar) | Direct and produce a short film made entirely in code, in one of the 99 styles of the Lemo-Opuscar library (e.g. Impasto Oil Painting 油画厚涂, Watercolor Brush 水彩笔刷, Ukiyo-e 浮世绘, Satellite Briefing 卫星简报, Exploded Teardown 产品拆解). |
 <!-- CATALOG:END -->
 
 ## Layout
@@ -15,6 +16,7 @@ A personal library of [Agent Skills](https://docs.claude.com/en/docs/agents-and-
 ```
 skills/
   design/          UI/UX, component libraries, visual design
+  media/           video, film, animation, audio production
   engineering/     coding workflows, reviews, testing, infra
   data/            analysis, SQL, notebooks, visualization
   writing/         docs, reports, communication styles

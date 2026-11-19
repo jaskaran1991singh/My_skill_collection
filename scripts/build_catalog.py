@@ -14,7 +14,7 @@ REPO = "my-skill-collection"
 
 
 def first_sentence(desc):
-    m = re.match(r"(.+?\.)(\s|$)", desc)
+    m = re.match(r"(.+?(?<!\be\.g)(?<!\bi\.e)(?<!\betc)\.)(\s|$)", desc)   # skip e.g. / i.e. / etc.
     return (m.group(1) if m else desc).replace("|", "\\|")
 
 
