@@ -9,6 +9,7 @@ A personal library of [Agent Skills](https://docs.claude.com/en/docs/agents-and-
 |---|---|---|
 | design | [ui-library-design](skills/design/ui-library-design) | Design and build app UIs with one of five component libraries (coss ui, AlignUI, daisyUI, HeroUI v3, Ant Design). |
 | media | [lemo-opuscar](skills/media/lemo-opuscar) | Direct and produce a short film made entirely in code, in one of the 99 styles of the Lemo-Opuscar library (e.g. Impasto Oil Painting 油画厚涂, Watercolor Brush 水彩笔刷, Ukiyo-e 浮世绘, Satellite Briefing 卫星简报, Exploded Teardown 产品拆解). |
+| writing | [asd-ste100](skills/writing/asd-ste100) | Use when English text must be parsed without a human to resolve ambiguity — tool descriptions, error messages, inter-agent instructions, system prompts, status reports — and misreading has a real cost, or when text reads as dense, hedged, or easy to misparse. |
 <!-- CATALOG:END -->
 
 ## Layout

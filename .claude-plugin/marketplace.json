@@ -25,6 +25,15 @@
       "skills": [
         "./skills/media/lemo-opuscar"
       ]
+    },
+    {
+      "name": "writing-skills",
+      "description": "Writing skills from my-skill-collection",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/writing/asd-ste100"
+      ]
     }
   ]
 }
