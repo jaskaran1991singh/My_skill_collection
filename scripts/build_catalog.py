@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Regenerate the README catalog table and .claude-plugin/marketplace.json.
 
-Each area folder under skills/ becomes one plugin named `<area>-skills`.
+Each area folder under skills/ becomes one plugin named `my-<area>` (prefixed so it never clashes with other marketplaces' plugins).
 Use --check to fail (without writing) when either file is out of date (CI).
 """
 import json, pathlib, re, sys
@@ -39,7 +39,7 @@ def build():
         "metadata": {"description": "Personal collection of reviewed Claude Agent Skills, grouped by area.", "version": "1.0.0"},
         "plugins": [
             {
-                "name": f"{area}-skills",
+                "name": f"my-{area}",
                 "description": f"{area.capitalize()} skills from {REPO}",
                 "source": "./",
                 "strict": False,

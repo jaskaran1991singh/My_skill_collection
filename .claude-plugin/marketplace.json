@@ -9,7 +9,7 @@
   },
   "plugins": [
     {
-      "name": "design-skills",
+      "name": "my-design",
       "description": "Design skills from my-skill-collection",
       "source": "./",
       "strict": false,
@@ -18,32 +18,40 @@
       ]
     },
     {
-      "name": "media-skills",
+      "name": "my-media",
       "description": "Media skills from my-skill-collection",
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/media/lemo-opuscar",
-        "./skills/media/yt-audit",
-        "./skills/media/yt-chapters",
-        "./skills/media/yt-comment",
-        "./skills/media/yt-edit",
-        "./skills/media/yt-package",
-        "./skills/media/yt-plan",
-        "./skills/media/yt-retention",
-        "./skills/media/yt-script",
-        "./skills/media/yt-seo",
-        "./skills/media/yt-shorts",
-        "./skills/media/yt-viral"
+        "./skills/media/lemo-opuscar"
       ]
     },
     {
-      "name": "writing-skills",
+      "name": "my-writing",
       "description": "Writing skills from my-skill-collection",
       "source": "./",
       "strict": false,
       "skills": [
         "./skills/writing/asd-ste100"
+      ]
+    },
+    {
+      "name": "my-youtube",
+      "description": "Youtube skills from my-skill-collection",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/youtube/yt-audit",
+        "./skills/youtube/yt-chapters",
+        "./skills/youtube/yt-comment",
+        "./skills/youtube/yt-edit",
+        "./skills/youtube/yt-package",
+        "./skills/youtube/yt-plan",
+        "./skills/youtube/yt-retention",
+        "./skills/youtube/yt-script",
+        "./skills/youtube/yt-seo",
+        "./skills/youtube/yt-shorts",
+        "./skills/youtube/yt-viral"
       ]
     }
   ]

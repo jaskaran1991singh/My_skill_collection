@@ -1,6 +1,6 @@
 # Provenance and security audit: YouTube skill pack (2026-11-26)
 
-This file covers all 11 `yt-*` skills in `skills/media/`: yt-audit, yt-chapters, yt-comment, yt-edit, yt-package, yt-plan, yt-retention, yt-script, yt-seo, yt-shorts and yt-viral.
+This file covers all 11 `yt-*` skills in `skills/youtube/`: yt-audit, yt-chapters, yt-comment, yt-edit, yt-package, yt-plan, yt-retention, yt-script, yt-seo, yt-shorts and yt-viral.
 
 **Upstream:** https://github.com/Jakeschincariol/youtube-agent-skill, by Jake Schincariol. MIT licence, copied into each skill's `LICENSES/`.
 **Vendored commit:** `a2feb2104981a375ffd4f87ee04f4f5344ac43c6` (2026-09-16, plugin version 1.0.0).
