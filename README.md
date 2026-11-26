@@ -9,6 +9,17 @@ A personal library of [Agent Skills](https://docs.claude.com/en/docs/agents-and-
 |---|---|---|
 | design | [ui-library-design](skills/design/ui-library-design) | Design and build app UIs with one of five component libraries (coss ui, AlignUI, daisyUI, HeroUI v3, Ant Design). |
 | media | [lemo-opuscar](skills/media/lemo-opuscar) | Direct and produce a short film made entirely in code, in one of the 99 styles of the Lemo-Opuscar library (e.g. Impasto Oil Painting 油画厚涂, Watercolor Brush 水彩笔刷, Ukiyo-e 浮世绘, Satellite Briefing 卫星简报, Exploded Teardown 产品拆解). |
+| media | [yt-audit](skills/media/yt-audit) | Audit a YouTube channel end to end - packaging, consistency, the first fifteen seconds, and what to fix first. |
+| media | [yt-chapters](skills/media/yt-chapters) | Write YouTube chapters from a transcript, validated against YouTube's own rules so they actually render. |
+| media | [yt-comment](skills/media/yt-comment) | Draft replies to YouTube comments in the creator's voice, triaged by which ones are worth answering. |
+| media | [yt-edit](skills/media/yt-edit) | Turn a raw recording's transcript into an edit decision list - dead air, filler cues and retakes, with timecodes. |
+| media | [yt-package](skills/media/yt-package) | Write and lint the title and thumbnail for a YouTube video as one pairing, checking truncation, duplication and vagueness before publish. |
+| media | [yt-plan](skills/media/yt-plan) | Plan a week or a month of YouTube uploads - what to post, when, and in what order, sized to the creator's actual capacity. |
+| media | [yt-retention](skills/media/yt-retention) | Read a YouTube Studio audience-retention export and find where viewers actually leave, then say what to change. |
+| media | [yt-script](skills/media/yt-script) | Write a YouTube video script from a raw idea - hook options off 21 formulas, scored, then the full spoken script with the retention beats marked. |
+| media | [yt-seo](skills/media/yt-seo) | Write the description, tags and search-facing text for a YouTube video, aimed at the query a real person types. |
+| media | [yt-shorts](skills/media/yt-shorts) | Find the Shorts hiding inside a long video and write them, using the transcript to pick self-contained moments. |
+| media | [yt-viral](skills/media/yt-viral) | Find what is actually working in the user's niche on YouTube and rank it by how far each video beat its own channel, then name the formula. |
 | writing | [asd-ste100](skills/writing/asd-ste100) | Use when English text must be parsed without a human to resolve ambiguity — tool descriptions, error messages, inter-agent instructions, system prompts, status reports — and misreading has a real cost, or when text reads as dense, hedged, or easy to misparse. |
 <!-- CATALOG:END -->
 
